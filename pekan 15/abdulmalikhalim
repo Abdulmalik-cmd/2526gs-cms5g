@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD Data identitas pribadi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Data pribadi Diri</h2>
+
+<form id="formData">
+    <input type="text" id="nama" placeholder="Nama" required>
+    <input type="number" id="umur" placeholder="Umur" required>
+
+    <select id="kepribadian">
+        <option value="Introvert">Introvert</option>
+        <option value="Ekstrovert">Ekstrovert</option>
+        <option value="Ambivert">Ambivert</option>
+    </select>
+
+    <button type="submit">Simpan</button>
+</form>
+
+<table>
+    <thead>
+        <tr>
+            <th>Nama</th>
+            <th>Umur</th>
+            <th>Kepribadian</th>
+            <th>prilaku</th>
+        </tr>
+    </thead>
+    <tbody id="tabelData"></tbody>
+</table>
+
+<script src="script.program"></script>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+form input, form select, form button {
+    margin: 5px;
+    padding: 6px;
+}
+
+table {
+    margin-top: 15px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kepribadian Diri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="editor">
+    <div class="title-bar">
+        <span>●</span><span>●</span><span>●</span>
+        <p>kepribadian.js — Visual Studio Code</p>
+    </div>
+
+    <pre class="code">
+<span class="comment">// Laman Pertama Kepribadian Diri</span>
+
+<span class="keyword">const</span> <span class="variable">kepribadianDiri</span> = {
+    <span class="property">nama</span>: <span class="string">"Pengguna"</span>,
+    <span class="property">tipe</span>: <span class="string">"Introvert"</span>,
+    <span class="property">kekuatan</span>: [
+        <span class="string">"Fokus"</span>,
+        <span class="string">"Analitis"</span>,
+        <span class="string">"Mandiri"</span>
+    ],
+    <span class="property">pengembangan</span>: <span class="string">"Komunikasi & Kolaborasi"</span>
+};
+
+<span class="function">console</span>.log(<span class="string">"Kenali kepribadian dirimu untuk berkembang!"</span>);
+    </pre>
+
+    <button class="btn">Mulai Eksplorasi</button>
+</div>
+
+</body>
+</html>
